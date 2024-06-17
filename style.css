@@ -29,7 +29,7 @@ border-radius: 50px;
 box-shadow: 0 0 10px
 }
 
-.personagen{
+.elenco{
     display: flex;
     justify-content: space-around;
     margin-bottom: 30px;
@@ -40,7 +40,7 @@ box-shadow: 0 0 10px
 }
 
 .personagen img{
-width: 1000px;
+width: 100px;
 height: 100px;
 object-fit: cover;
 border-radius: 5px;
