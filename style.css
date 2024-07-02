@@ -53,3 +53,23 @@ height: 100px;
 object-fit: cover;
 border-radius: 5px;
 }
+
+.titulo-elenco{
+    text-align: center;
+}
+
+.titulo-sinopse{
+    text-align: center;
+}
+
+.site{
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.site img{
+    width: 50px;
+    height: auto;
+
+}
