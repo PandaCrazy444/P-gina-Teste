@@ -29,18 +29,21 @@ body{
 
 .banner{
     margin-bottom: 30px;
+  text-align: center;
 }
 
 .banner img{
 max-width: 1000;
 height: auto;
 border-radius: 50px;
+ 
 }
 
 .elenco{
     display: flex;
     justify-content: space-around;
     margin-bottom: 30px;
+    margin: 0 2px;
 }
 
 .personagen{
@@ -48,10 +51,10 @@ border-radius: 50px;
 }
 
 .personagen img{
-width: 100px;
-height: 100px;
+width: 150px;
+height: 200px;
 object-fit: cover;
-border-radius: 5px;
+border-radius: 15px;
 transition: transform 0.3s ease;
 }
 
@@ -64,18 +67,31 @@ transition: transform 0.3s ease;
 }
 
 .site{
-    display: flex;
-    align-items: center;
-    font-size: 1.2em;
 }
 
 .site img{
-    width: 50px;
+    width: 100px;
     height: auto;
-
+   object-fit: cover;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  position: relative;
+  border-radius: 50%;
 }
 
 .personagen:hover img{
   transform: scale(1.1);
   
+}
+.avaliacoes{
+height: 100px;
+  width: 100px;
+}
+
+.elenco img{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
 }
